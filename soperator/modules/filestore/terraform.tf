@@ -1,11 +1,13 @@
 terraform {
   required_providers {
     nebius = {
-      source = "nebius/nebius"
+      source  = "nebius/nebius"
+      version = ">= 0.5.196, < 0.6.0"
     }
 
     units = {
-      source = "dstaroff/units"
+      source  = "dstaroff/units"
+      version = ">= 1.1.1, < 2.0.0"
     }
   }
 }
